@@ -26,7 +26,7 @@ async def hq(ctx,time=None, accuracy=None, ques=None, prize=None):
 		embed.add_field(name="Total Question",value=ques)
 		embed.add_field(name="Winning amount",value=prize)
 		embed.set_footer(text="Made by Myran#0001")
-		embed.set_thumbnail(url="") //Put Your Thumbnail url
+		embed.set_thumbnail(url="") #Put Your Thumbnail url
 		await ctx.send(embed=embed)
 			
 
